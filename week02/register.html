@@ -1,19 +1,35 @@
-ชื่อ <input type="text" />
- นามสกุล <input type="text" />
-<br />
-<label for="gender">เพศ:</label>
-<select name="gender" id="gender">
-  <option value="se">เลือก</option>
-  <option value="wm">หญิง</option>
-  <option value="men">ชาย</option>
-</select>
-<br />
-อัปโหลดเอกสาร <input type="file" />
-<br>
-E-mail <input type="text" />
-<br />
-วันเกิด <input type="date" />
-<br />
-GPAX <input type="number" />
-<br />
-<button>SAVE</button>
+<body>
+    <form action="/action_page.php">
+        ชื่อ : <br>
+        <input type="text"  value=""> 
+        <br>  
+        นามสกุล : <br>
+        <input type="text"  value=""> 
+        <br>  
+      </form> 
+
+    <label for="เพศ">เพศ:</label>    
+    <select name="เพศ" id="เพศ">
+        <option value="เลือก">เลือก</option>
+        <option value="ผู้หญิง">ผู้หญิง</option>
+        <option value="ผู้ชาย">ผู้ชาย</option>
+
+
+     <form action="/action_page.php">
+       อัพโหลไฟล์: <br>
+        <input type="file" value="อัพโหลดไฟล์"> 
+        <br>
+         Email : <br>
+        <input type="email" value="กรุณากรอกอีเมล">  
+        <br>
+        วัน / เดือน / ปีเกิด : <br>
+        <input type="date" value="กรุณากรอก">  
+        <br>
+        เกรดเฉลี่ย : <br>
+        <input type="number" value="กรุณากรอก">
+        <br> บันทึก:  
+        <br><input type="button"  value="save">
+
+      </form> 
+
+</body>
